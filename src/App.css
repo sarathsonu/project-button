@@ -6,10 +6,10 @@
   padding: 2rem;
   text-align: center;
 } */
-body{
+/* body{
   background: #F5F5F5;
 justify-content: center;
-}
+} */
 .body{
 margin: auto;
   position: relative;
@@ -135,7 +135,7 @@ flex-grow: 0;
   border: none;
   position: absolute;
   width: 189.66px;
-  height: 60px;
+  height: 60px; 
   background: #FFFFFF;
  cursor: pointer;
 
@@ -485,16 +485,17 @@ color: #F8FAFB;
 
 @media (max-width:775px) {
 
-  body{
+  /* body{
     background: #F5F5F5;
+    justify-content: center;
   
-  }
+  } */
   .body{
     position: relative;
-    width: 350px;
+    width: 450px;
   
-    height: 700px;
-    left: 70px;
+    height: 400px;
+    left: 40px;
    
     
     background: #FFFFFF;
@@ -503,14 +504,13 @@ color: #F8FAFB;
   .top{
   position: absolute;
   height: 21px;
-  left: 20px;
-  right: 210px;
-  top: 19px;
-  
+left: 20px;
+right: 210px;
+top: 29px;
   font-family: 'Urbanist';
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 130%;
   /* identical to box height, or 21px */
   
@@ -523,14 +523,14 @@ color: #F8FAFB;
       box-sizing: border-box;
   
   position: absolute;
-  width: 332px;
-  height: 263px;
-  left: 22px;
-  top: 82px;
+  width: 532px;
+  height: 443px;
+  left: 0px;
+  top: 0px;
   
   background: rgba(247, 248, 249, 0.63);
   border: 1px solid #E8ECF4;
-  border-radius: 8px;
+  border-radius: 10px;
   }
 
 
@@ -543,7 +543,7 @@ color: #F8FAFB;
   
   position: absolute;
   width: 619px;
-  height: 98px;
+  height: 100px;
   left: 8px;
   top: 9px;
   }
@@ -553,14 +553,14 @@ color: #F8FAFB;
     display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 2px;
   gap: 2px;
   
   position: absolute;
   width: 619px;
   height: 98px;
   left: 4px;
-  top: 9px;
+  top: 40px;
   }
   .thirdbox{
     display: flex;
@@ -579,14 +579,14 @@ color: #F8FAFB;
   .shape{
     position: absolute;
     width: 50px;
-    height: 20px;
-    left: 0px;
+    height: 30px;
+    left: 19px;
     top: 1px;
     
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 28px;
     line-height: 20px;
     
     color: #000000;  
@@ -597,20 +597,22 @@ color: #F8FAFB;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8.28713px 27.6238px;
-  gap: 4.6px;
+  padding: 19.28713px 7.6238px;
+  gap: 12.6px;
   
   position: absolute;
-  width: 91px;
-  height: 34.99px;
+  /* width: 98px;
+  height: 37.99px; */
+  width: 155px;
+  height: 65px;
   border: none;
   
   background: #FFFFFF;
   font-family: 'DM Sans';
   font-style: normal;
-  font-weight: bold;
-  font-size: 10.28713px;
-  line-height: 11px;
+  font-weight: 700;
+  font-size: 20.28713px;
+  line-height: 16px;
   /* identical to box height */
   
   
@@ -621,7 +623,7 @@ color: #F8FAFB;
   
   flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 5;
   
   }
   /* .follow1:focus,
@@ -644,13 +646,13 @@ color: #F8FAFB;
   }
   
   .follow2{
-    left: 119px;
+    left: 186px;
   top: 55px;
     border-radius: 40px;
   }
   
   .follow3{
-    left: 222px;
+    left: 352px;
     top: 55px;
     border-radius: 10px;
   }
@@ -662,13 +664,13 @@ color: #F8FAFB;
     position: absolute;
     width: 49px;
     height: 20px;
-    left: 16px;
-    top: 94px;
+    left: 19px;
+    top: 98px;
     
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 28px;
     line-height: 20px;
     
     color: #000000;
@@ -679,18 +681,18 @@ color: #F8FAFB;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8.28713px 27.6238px;
+  padding: 18.28713px 12.6238px;
   gap: 4.6px;
   
   position: absolute;
-  width: 91px;
-  height: 34.99px;
+  width: 138px;
+  height: 76.99px;
   
   font-family: 'DM Sans';
   font-style: normal;
-  font-weight: 700;
-  font-size: 10.28713px;
-  line-height: 11px;
+  font-weight: 900;
+  font-size: 20.28713px;
+  line-height: 14px;
   /* identical to box height */
   
   
@@ -706,25 +708,25 @@ color: #F8FAFB;
   }
   .Border{
   
-    left: 16px;
-    top: 130px;
+    left: 19px;
+    top: 155px;
     
     background: rgba(255, 255, 255, 0.63);
-    border: 2px solid #000000;
+    border: 3px solid #000000;
   
   }
   .Shadow{
-    left: 120px;
-    top: 130px;
+    left: 180px;
+    top: 155px;
     border: none;
     background: #FFFFFF;
-    box-shadow: 6px 6px #C6DAFF;;
+    box-shadow: 7px 8px #C6DAFF;;
     
   }
   .Highlight{
   
-    left: 224px;
-    top: 130px;
+    left: 354px;
+    top: 155px;
     
     background: #FFFFFF;
     border: none;
@@ -741,12 +743,12 @@ color: #F8FAFB;
     width: 44px;
     height: 20px;
     left: 19px;
-    top: 170px;
+    top: 280px;
     
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 900;
+    font-size: 28px;
     line-height: 20px;
     
     color: #000000;
@@ -758,10 +760,10 @@ color: #F8FAFB;
     box-sizing: border-box;
   
     position: absolute;
-    width: 92.24px;
-    height: 30.75px;
+    width: 142.24px;
+    height: 50.75px;
     left: 19px;
-    top: 208px;
+    top: 338px;
     
     background: rgba(247, 248, 249, 0.63);
     border: 1.06028px solid #E8ECF4;
@@ -771,10 +773,10 @@ color: #F8FAFB;
     box-sizing: border-box;
   
     position: absolute;
-    width: 92.24px;
-    height: 30.75px;
-    left: 122.91px;
-    top: 208px;
+    width: 149.24px;
+    height: 50.75px;
+    left: 172.91px;
+    top: 338px;
     
     background: rgba(247, 248, 249, 0.63);
     border: 1.06028px solid #E8ECF4;
@@ -784,10 +786,10 @@ color: #F8FAFB;
     box-sizing: border-box;
   
     position: absolute;
-    width: 92.24px;
-    height: 30.75px;
-    left: 225.76px;
-    top: 208px;
+    width: 149.24px;
+    height: 50.75px;
+    left: 335.76px;
+    top: 338px;
     
     background: rgba(247, 248, 249, 0.63);
     border: 1.06028px solid #E8ECF4;
@@ -801,8 +803,8 @@ color: #F8FAFB;
     appearance: none;
     border: none;
     cursor: pointer;
-  width: 29.6px;
-  height: 30.75px;
+  width: 50.75px;
+  height: 50.75px;
   left: 228.83px;
   top: 206.07px;
   border-radius: 5.07482px;
@@ -810,15 +812,15 @@ color: #F8FAFB;
   }
   .lab_button{
     position: absolute;
-    width: 29px;
-    height: 15px;
-    left: 36px;
+    width: 39px;
+    height: 25px;
+    left: 58px;
     top: 0.66px;
     
     font-family: 'Urbanist';
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 900;
+    font-size: 20px;
     line-height: 150%;
     /* identical to box height, or 15px */
     
@@ -831,13 +833,13 @@ color: #F8FAFB;
     position: absolute;
     width: 20px;
     height: 15px;
-    left: 34px;
+    left: 58px;
     top: 0.66px;
     
     font-family: 'Urbanist';
     font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 900;
+    font-size: 20px;
     line-height: 150%;
     /* identical to box height, or 15px */
     
@@ -849,13 +851,13 @@ color: #F8FAFB;
     position: absolute;
     width: 27px;
     height: 15px;
-    left: 34px;
+    left: 58px;
     top: 0.66px;
     
     font-family: 'Urbanist';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 150%;
     /* identical to box height, or 15px */
     
@@ -865,30 +867,10 @@ color: #F8FAFB;
   }
   .colorText{
     position: absolute;
-  width: 37px;
-  height: 12px;
-  left: 53px;
-  top: 218.66px;
-  
-  font-family: 'Urbanist';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  /* identical to box height */
-  
-  
-  color: #888888;
-  }
-
-  .colorText{
-    position: absolute;
-    
-    
     font-family: 'Urbanist';
     font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 12px;
     
     color: #000000;
@@ -898,20 +880,20 @@ color: #F8FAFB;
   .white{
     width: 37px;
     height: 12px;
-    left: 34px;
-    top: 7.66px;
+    left: 60px;
+    top: 14.66px;
   }
   .black{
     width: 37px;
     height: 12px;
-    left: 34px;
-    top: 7.68px;
+    left: 60px;
+    top: 14.68px;
   }
   .blue{
     width: 37px;
     height: 12px;
-    left: 34px;
-    top: 7.66px;
+    left: 60px;
+    top: 14.66px;
   }
   
   
@@ -919,22 +901,25 @@ color: #F8FAFB;
   
   .Next{
     position: absolute;
-    height: 48px;
-    width: 331px;
-    left: 10px;
+   
+    right: 5.87%;
     
-    top: 407px;
-    border-radius: 28px;
-    border: none;  
-  
-  
-  
+    bottom: 13.18%;
+
+    height: 70px;
+    width: 541px;
+    left: 22px;
+    top: 857px;
+    
+
+    
     background: #5534A5;
+    border-radius: 48px;
   
   font-family: 'Urbanist';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 28px;
   line-height: 19px;
   text-align: center;
   

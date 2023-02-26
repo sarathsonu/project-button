@@ -9,8 +9,9 @@ import { useState } from 'react'
 export default function Center() {
   
   return (
+ <><Head/>
     <div className='body'>
-      <Head/>
+    
     <div className='Center'>
     <Shape/>
     <Effect/>
@@ -18,5 +19,6 @@ export default function Center() {
     <Next/>
     </div>
     </div>
+    </>   
   )
 }
