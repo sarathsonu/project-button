@@ -1,0 +1,946 @@
+@import url('https://fonts.googleapis.com/css?family=Plus Jakarta Sans|Urbanist|DM Sans');
+/* @import url('https://fonts.googleapis.com/css?family=Urbanist'); */
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+body{
+  background: #F5F5F5;
+justify-content: center;
+}
+.body{
+margin: auto;
+  position: relative;
+  width: 1440px;
+  height: 700px;
+  
+  background: #FFFFFF;
+}
+.top{
+  position: absolute;
+  height: 21px;
+  left: 20px;
+  right: 210px;
+  top: 29px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  
+  letter-spacing: -0.01em;
+  
+  color: #1E232C;
+  
+  }
+.Center{
+  box-sizing: border-box;
+
+position: absolute;
+width: 699px;
+height: 432px;
+left: 370px;
+top: 92px;
+
+background: rgba(247, 248, 249, 0.63);
+border: 1px solid #E8ECF4;
+border-radius: 8px;
+}
+
+
+.firstbox{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 619px;
+height: 98px;
+left: 41px;
+top: 19px;
+}
+
+
+.secondtbox{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 619px;
+height: 98px;
+left: 41px;
+top: 159px;
+}
+.thirdbox{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 619px;
+height: 98px;
+left: 41px;
+top: 296px;
+}
+
+
+.shape{
+  width: 71px;
+  height: 36px;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.2794px;
+  line-height: 150%;
+  /* or 36px */
+  
+  text-align: center;
+  color: #000000;
+  
+  /* Inside auto layout */
+  top: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.followbox{
+  width: 619px;
+height: 72.93px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16.2716px 56.5726px;
+  gap: 9.6px;
+  border: none;
+  position: absolute;
+  width: 189.66px;
+  height: 60px;
+  background: #FFFFFF;
+ cursor: pointer;
+
+ font-style: normal;
+font-weight: 600;
+font-size: 14.2718px;
+line-height: 22px;
+border: none;
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .button:focus,
+  .button:focus-visible  {
+    outline: 4px auto #16A34A ;
+  }
+
+  .butt:focus,.butt:focus-visible {
+    outline: 4px auto #16A34A ;
+  }
+
+.follow1{
+left: 0px;
+top: 58px;
+
+}
+
+.follow2{
+left: 214.67px;
+top: 58px;
+background: #FFFFFF;
+border-radius: 83.367px;
+}
+
+.follow3{
+  
+left: 428.31px;
+top: 58px;
+background: #FFFFFF;
+border-radius: 20.8418px;
+}
+
+
+
+.Effect{
+  position: absolute;
+  width: 64px;
+  height: 36px;
+  
+  top: 2px;
+ 
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.2794px;
+  line-height: 150%;
+  /* or 36px */
+  
+  text-align: center;
+  
+  color: #000000;
+}
+.effectbox{
+  width: 619px;
+height: 76.6px;
+
+display: inline-block;
+/* Inside auto layout */
+top: 55px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.butt{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17.1563px 57.1877px;
+  gap: 9.53px;
+  
+  position: absolute;
+  width: 188.39px;
+  height: 56.74px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.1563px;
+  line-height: 22px;
+
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Border{
+  
+  left: 0px;
+  top: 55px;
+  
+  background: rgba(255, 255, 255, 0.63);
+  border: 3px solid #000000;
+
+
+
+}
+.Shadow{
+
+left: 215.3px;
+top: 55px;
+
+background: #FFFFFF;
+border: 3px solid #000000;
+box-shadow: 5px 5px #6A1ACF;
+
+
+}
+.Highlight{
+
+left: 426.61px;
+top: 55px;
+border: none;
+background: #FFFFFF;
+box-shadow: 0px 8.28094px 4.14047px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.Color{
+  width: 57px;
+height: 36px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 24.2794px;
+line-height: 150%;
+/* or 36px */
+
+text-align: center;
+
+color: #000000;
+
+top: 40px;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+.what{
+  box-sizing: border-box;
+position: absolute;
+width: 190.97px;
+height: 50px;
+left: 1px;
+top: 52px;
+
+background: rgba(247, 248, 249, 0.63);
+border: 1.06028px solid #E8ECF4;
+border-radius: 3.07482px
+}
+.what1{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 190.97px;
+  height: 50px;
+  left: 217px;
+  top: 52px;
+  
+  background: rgba(247, 248, 249, 0.63);
+  border: 1.06028px solid #E8ECF4;
+  border-radius: 3.07482px;
+}
+.what2{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 190.97px;
+  height: 50px;
+  left: 429px;
+  top: 52px;
+  
+  background: rgba(247, 248, 249, 0.63);
+  border: 1.06028px solid #E8ECF4;
+  border-radius: 3.07482px;
+}
+.colorpicker{
+
+color:  #000000;
+}
+
+
+[type='color']{
+  border-color:none;
+  appearance: none;
+  width: 50.92px;
+  height: 50px;
+  border-radius: 5.07482px;
+  -webkit-appearance: none;
+    -moz-appearance:none ;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+  }
+.lab_button{
+  position: absolute;
+  width: 60.04px;
+  height: 29.27px;
+  left: 67px;
+  top: 5px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 26px */
+  
+  text-align: center;
+  
+  color: #838BA1;
+}
+
+.lab_Text{
+  position: absolute;
+  width: 60.04px;
+  height: 29.27px;
+  left: 67px;
+  top: 5px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 26px */
+  
+  text-align: center;
+  
+  color: #838BA1;
+}
+.lab_Shadow{
+  position: absolute;
+  width: 60.04px;
+  height: 29.27px;
+  left: 67px;
+  top: 5px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 26px */
+  
+  text-align: center;
+  
+  color: #838BA1;
+
+}
+
+.colorText{
+  position: absolute;
+  width: 76.6px;
+  height: 23.42px;
+  left: 70.39px;
+  top: 12.6px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  
+  color: #000000;
+  
+}
+
+.white{
+  width: 76.6px;
+  height: 23.42px;
+  left: 70.39px;
+  top: 12.6px;
+}
+.black{
+  width: 89.02px;
+  height: 23.42px;
+  left: 78.69px;
+  top: 12.6px;
+}
+.blue{
+  width: 89.02px;
+  height: 23.42px;
+  left: 66.86px;
+  top: 12.6px;
+}
+
+
+.Next{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 60px;
+gap: 10px;
+
+position: absolute;
+width: 549px;
+height: 48px;
+left: 50px;
+
+top: 516px;
+
+background: #5534A5;
+border: none;
+border-radius: 48px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #F8FAFB;
+
+}
+
+/* for mobile */
+
+@media (max-width:775px) {
+
+  body{
+    background: #F5F5F5;
+  
+  }
+  .body{
+    position: relative;
+    width: 350px;
+  
+    height: 700px;
+    left: 70px;
+   
+    
+    background: #FFFFFF;
+  
+  }
+  .top{
+  position: absolute;
+  height: 21px;
+  left: 20px;
+  right: 210px;
+  top: 19px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  
+  letter-spacing: -0.01em;
+  
+  color: #1E232C;
+  
+  }
+  .Center{
+      box-sizing: border-box;
+  
+  position: absolute;
+  width: 332px;
+  height: 263px;
+  left: 22px;
+  top: 82px;
+  
+  background: rgba(247, 248, 249, 0.63);
+  border: 1px solid #E8ECF4;
+  border-radius: 8px;
+  }
+
+
+  .firstbox{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  
+  position: absolute;
+  width: 619px;
+  height: 98px;
+  left: 8px;
+  top: 9px;
+  }
+  
+  
+  .secondtbox{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  
+  position: absolute;
+  width: 619px;
+  height: 98px;
+  left: 4px;
+  top: 9px;
+  }
+  .thirdbox{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  
+  position: absolute;
+  width: 619px;
+  height: 98px;
+  left: 4px;
+  top: 9px;
+  }
+  
+  .shape{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 0px;
+    top: 1px;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #000000;  
+  }
+  
+  .button{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.28713px 27.6238px;
+  gap: 4.6px;
+  
+  position: absolute;
+  width: 91px;
+  height: 34.99px;
+  border: none;
+  
+  background: #FFFFFF;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.28713px;
+  line-height: 11px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+  }
+  /* .follow1:focus,
+  .follow1:focus-visible , .follow1:target{
+    cursor: pointer;
+    outline: 4px auto #16A34A ;
+  } */
+  .button:focus,.button:focus-visible {
+    outline: 4px auto #16A34A ;
+  }
+  .butt:focus,.butt:focus-visible {
+    outline: 4px auto #16A34A ;
+  }
+  
+  .follow1{
+  left: 16px;
+  top: 55px;
+ 
+  
+  }
+  
+  .follow2{
+    left: 119px;
+  top: 55px;
+    border-radius: 40px;
+  }
+  
+  .follow3{
+    left: 222px;
+    top: 55px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  
+  .Effect{
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    left: 16px;
+    top: 94px;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #000000;
+       
+  }
+  .butt{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.28713px 27.6238px;
+  gap: 4.6px;
+  
+  position: absolute;
+  width: 91px;
+  height: 34.99px;
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.28713px;
+  line-height: 11px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+  }
+  .Border{
+  
+    left: 16px;
+    top: 130px;
+    
+    background: rgba(255, 255, 255, 0.63);
+    border: 2px solid #000000;
+  
+  }
+  .Shadow{
+    left: 120px;
+    top: 130px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 6px 6px #C6DAFF;;
+    
+  }
+  .Highlight{
+  
+    left: 224px;
+    top: 130px;
+    
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  
+  
+  
+  
+  .Color{
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    left: 19px;
+    top: 170px;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #000000;
+  }
+  
+  
+  
+  .what{
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 92.24px;
+    height: 30.75px;
+    left: 19px;
+    top: 208px;
+    
+    background: rgba(247, 248, 249, 0.63);
+    border: 1.06028px solid #E8ECF4;
+    border-radius: 3.07482px;
+  }
+  .what1{
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 92.24px;
+    height: 30.75px;
+    left: 122.91px;
+    top: 208px;
+    
+    background: rgba(247, 248, 249, 0.63);
+    border: 1.06028px solid #E8ECF4;
+    border-radius: 3.07482px;  
+  }
+  .what2{
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 92.24px;
+    height: 30.75px;
+    left: 225.76px;
+    top: 208px;
+    
+    background: rgba(247, 248, 249, 0.63);
+    border: 1.06028px solid #E8ECF4;
+    border-radius: 3.07482px;
+  }
+  
+  
+  #color_1{
+    -webkit-appearance: none;
+    -moz-appearance:none ;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+  width: 29.6px;
+  height: 30.75px;
+  left: 228.83px;
+  top: 206.07px;
+  border-radius: 5.07482px;
+  background: rgba(247, 248, 249, 0.63);
+  }
+  .lab_button{
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    left: 36px;
+    top: 0.66px;
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    
+    text-align: center;
+    
+    color: #838BA1; 
+  }
+  
+  .lab_Text{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    left: 34px;
+    top: 0.66px;
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    
+    
+    color: #838BA1;
+  }
+  .lab_Shadow{
+    
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    left: 34px;
+    top: 0.66px;
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    
+    text-align: center;
+    
+    color: #838BA1;
+  }
+  .colorText{
+    position: absolute;
+  width: 37px;
+  height: 12px;
+  left: 53px;
+  top: 218.66px;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  
+  
+  color: #888888;
+  }
+
+  .colorText{
+    position: absolute;
+    
+    
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #000000;
+    
+  }
+  
+  .white{
+    width: 37px;
+    height: 12px;
+    left: 34px;
+    top: 7.66px;
+  }
+  .black{
+    width: 37px;
+    height: 12px;
+    left: 34px;
+    top: 7.68px;
+  }
+  .blue{
+    width: 37px;
+    height: 12px;
+    left: 34px;
+    top: 7.66px;
+  }
+  
+  
+  
+  
+  .Next{
+    position: absolute;
+    height: 48px;
+    width: 331px;
+    left: 10px;
+    
+    top: 407px;
+    border-radius: 28px;
+    border: none;  
+  
+  
+  
+    background: #5534A5;
+  
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }  
+}
+
+
+
