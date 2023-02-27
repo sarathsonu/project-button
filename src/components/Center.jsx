@@ -1,6 +1,7 @@
 import Head from './headtext'
-import Shape from './shape'
-import Effect from './effect'
+// import Shape from './shape'
+// import Effect from './effect'
+import Buttons from './Buttons'
 import Color from './color'
 import Next from './next'
 import { useState } from 'react'
@@ -9,16 +10,19 @@ import { useState } from 'react'
 export default function Center() {
   
   return (
- <><Head/>
+ <>
     <div className='body'>
-    
+    <Head/>
     <div className='Center'>
-    <Shape/>
-    <Effect/>
+      <Buttons/>
+    {/* <Shape/>
+    <Effect/> */}
     <Color/>
+    
+    </div>
     <Next/>
     </div>
-    </div>
+
     </>   
   )
 }
