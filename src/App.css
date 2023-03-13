@@ -828,15 +828,16 @@ color:  #000000;
   position: absolute;
   width: 76.6px;
   height: 23.42px;
-  left: 70.39px;
-  top: 12.6px;
-  
+  /* left: 70.39px;
+  top: 12.6px; */
+  text-align: center;
+  border: none;
   font-family: 'Urbanist';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  
+  background-color: transparent;
   color: #000000;
   
 }
@@ -844,20 +845,20 @@ color:  #000000;
 .white{
   width: 76.6px;
   height: 23.42px;
-  left: 70.39px;
-  top: 12.6px;
+  left: 67.39px;
+  top: 20.6px;
 }
 .black{
   width: 89.02px;
   height: 23.42px;
-  left: 78.69px;
-  top: 12.6px;
+  left: 67.69px;
+  top: 20.6px;
 }
 .blue{
   width: 89.02px;
   height: 23.42px;
-  left: 66.86px;
-  top: 12.6px;
+  left: 57.86px;
+  top: 20.6px;
 }
 
 

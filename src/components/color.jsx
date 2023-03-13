@@ -1,38 +1,35 @@
 import { useState } from 'react'
-import ColorPicker from './colorpicker';
+
 
 function Color() {
-  // cost [Colors,setColors]=useState('')
-  
+  const [color,setColor]= useState();  
+  const [color1,setColor1]= useState();
+  const [color2,setColor2]= useState();
   return (
     <div class="thirdbox">
     <h1 class="Color">Color</h1>
     <div class="Colorbox">
         <div class="what">
             <label class="lab_button">Button</label>
-            {/* <h2 className='olorText white'>{color}</h2> */}
-            <h2 className='colorText white'>#FFFFFF</h2>
+            <input type="text" className='colorText white' value={color}/>
         <div class="color-picker">
-        <ColorPicker  />
-
+        <input type="color"  className="colorpicker2" id="color_1"  onChange={(e) =>setColor(e.target.value)}  />
         </div>
         </div>
 
         <div class="what1">
             <label class="lab_Text">Text</label>
-            <h2 className='colorText black'>#000000</h2>
+            <input type="text" className='colorText black' value={color1}/>
         <div class="color-picker">
-        <input type="color"  className="colorpicker2" id="color_1" value=" #000000"  />
-        {/* <ColorPicker className="colorpicker"/> */}
+        <input type="color"  className="colorpicker2" id="color_1"  onChange={(e) =>setColor1(e.target.value)}  />
         </div>
         </div>
 
         <div class="what2">
             <label class="lab_Shadow">Shadow</label>
-            <h2 className='colorText blue'>#6A1ACF</h2>
+            <input type="text" className='colorText blue' value={color2}/>
         <div class="color-picker">
-          <input type="color" name="color" class="colorpicker" id="color_1" value="#6A1ACF"  />
-          {/* <ColorPicker value="#6A1ACF"/> */}
+          <input type="color" name="color" class="colorpicker" id="color_1" onChange={(e) =>setColor2(e.target.value)}  />
         </div>
         </div>
 
